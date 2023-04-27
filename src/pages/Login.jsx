@@ -12,7 +12,7 @@ import { useEffect } from 'react'
 import {useNavigate} from 'react-router-dom'
 import Cookies from 'universal-cookie';
 import { toast } from 'react-toastify';
-import { GoogleLogin } from 'react-google-login';
+// import { GoogleLogin } from 'react-google-login';
 import {auth,provider} from "../firebase"
 import {signInWithPopup} from "firebase/auth"
 import Button from 'react-bootstrap/Button';
