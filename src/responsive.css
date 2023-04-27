@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    .banner-img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .order-left, .order-action {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-img {
+        display: none;
+    }
+    .banner-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner-features {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .partner-news-container {
+        border: none;
+    }
+    .history-middle {
+        width: 100%;
+        flex: auto;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .order-item-left {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .sidebar {
+        width: 200px;
+    }
+    .sidebar-logo img {
+        height: 50px;
+    }
+    .sidebar-logo h3 {
+        font-size: 14px;
+        margin-right: 10px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-right {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cart-item-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .chart1 {
+        height: 150px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        min-height: 100vh;
+        transition: .5s;
+        width: 250px;
+        z-index: 9;
+        color: #a0b9ec;
+    }
+    .sidebar.active {
+        left: 0;
+    }
+    .partner-menu-btn {
+        display: flex !important;
+    }
+    .partner-route-content {
+        padding: 20px !important;
+    }
+    .forum-dropdown{
+        display : flex;
+        justify-content : center
+    }
+    .dropdown-heading{
+        text-align : center;
+        font-size : 30px
+    }
+}
