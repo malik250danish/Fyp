@@ -224,7 +224,8 @@ const Login = () => {
             keyboard={false}
           >
             <Modal.Header style={{backgroundColor : "#000000" , color : "white"}}>
-              <Modal.Title>Verifying Code</Modal.Title>
+              <Modal.Title>
+                Verifying Code</Modal.Title>
             </Modal.Header>
             <Modal.Body style={{backgroundColor : "#000000" , color : "white"}}>
                 <div style={{display : "flex" , flexDirection : 'column' , justifyContent : "center"}} >
